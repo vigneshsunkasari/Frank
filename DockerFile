@@ -1,0 +1,4 @@
+FROM python:3
+ADD Demo.py/
+RUN pip install pystrich
+CMD ["python","./Demo.py"]
