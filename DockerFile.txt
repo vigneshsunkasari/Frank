@@ -1,3 +1,2 @@
 FROM python:latest
-COPY Demo.py ./
 CMD ["python","./Demo.py"]
